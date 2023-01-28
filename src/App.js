@@ -1,25 +1,35 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './component/header/header';
+import Footer from './component/footer/footer';
+import Content from './component/content/content';
+import { useState } from 'react';
+
+
+
+
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+  const [state, setState]= useState('')
+  
+
+  function clickPage(page){
+    const newPage = page
+    setState(newPage);
+  }
+
+  
+    
+
+  return (<>
+    {/* <Header/> */}
+    <Header changePage = {clickPage}/>
+    <Content page = {state}/>
+    {/* <button onClick={()=>{setState('profolio')}}>click</button> */}
+    <Footer/>
+    </> )
 }
+
 
 export default App;
