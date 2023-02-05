@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.main{
+    /* max-width: 1200px; */
+    margin: 0 auto;
+  }
+
+
+.cards {
+    /* display: flex;
+    flex-wrap: wrap; */
+    margin: 0;
+    padding: 0;
+  }
+
+.cards_item {
+    /* display: flex; */
+    padding: 1rem;
+  }
+
+.card {
+    background-color: white;
+    border-radius: 0.25rem;
+    box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+    /* display: flex;
+    flex-direction: column; */
+    /* overflow: hidden; */
+  }
+  
+img {
+    height: 200px;
+    max-width: 100%;
+    vertical-align: middle;
+    justify-content: center;
+    display: flex;
+  }
+
+
+h1 {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+h2{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.card_content {
+    padding: 1rem;
+    
+  }
+
+.btn {
+    color: black;
+    padding: 0.8rem;
+    font-size: 14px;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 400;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    border: 1px solid black;
+    background: transparent;
+  }
