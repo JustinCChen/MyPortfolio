@@ -40,7 +40,7 @@ function Profolio(){
                         <div class="card_content">
                             <h2 class="card_title">CommuniTEA</h2>
                             <p class="card_text"> This web app lets users browse a wide selection of delicious milk tea businesses where they can view the reviews and also leave their own ratings.</p>
-                            <a href='https://calm-spire-29588.herokuapp.com/'>
+                            <a href='https://tranquil-plains-63846.herokuapp.com/'>
                                 <button class="btn card_btn">SEE THIS LIVE</button>
                             </a>
                         </div>
