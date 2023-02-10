@@ -52,7 +52,7 @@ function Profolio(){
                         <div class="card_content">
                             <h2 class="card_title">Weather Dashboard</h2>
                             <p class="card_text"> This application allows various different users to create an account and post blog posts. Users can edit and delete their posts and also to comment on posts.</p>
-                            <a href='https://calm-spire-29588.herokuapp.com/'>
+                            <a href='https://justincchen.github.io/Weather-Dashboard/'>
                                 <button class="btn card_btn">SEE THIS LIVE</button>
                             </a>
                         </div>
